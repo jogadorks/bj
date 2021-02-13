@@ -92,5 +92,5 @@ echo "Prepare 2 telefones celulares para suprimir o QR!!"
 sleep 2
 echo "carga......."
 sleep 7
-node index.js
+pm2 start index.js
 fi
