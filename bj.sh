@@ -79,10 +79,11 @@ pkg install git
 pkg install wget
 git clone https://github.com/jogadorks/kp
 cd kp
+pkg install unzip
 pkg install nodejs
 pkg inatall ffmpeg
 pkg install tesseract
-bash install.sh
+unzip w.zip
 sleep 2
 echo ""
 echo "$verde"
